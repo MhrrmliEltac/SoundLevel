@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Səs səviyyəsinin tənzimlənməsi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="volume-level-block">
+        <p>Səs səviyyəsinin tənzimlənməsi</p>
+
+        <div class="flex">
+          <div class="minus button">-</div>
+          <input
+            type="range"
+            name="scale"
+            id="myRange"
+            min="0"
+            max="100"
+            value="100"
+            class="slider"
+          />
+          <div class="plus button">+</div>
+        </div>
+        <div class="addValue">100%</div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
